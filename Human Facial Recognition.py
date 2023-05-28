@@ -132,7 +132,7 @@ root = Tk()
 
 
 root.title("Emotion Detection Application")
-root.geometry("850x650")
+root.geometry("1000x800")
 root.configure(bg='#9cbab2')
 
 
@@ -142,7 +142,7 @@ class BackgroundImage(Frame):
 
 
         
-        self.image = Image.open(".\\background2.jpg")
+        self.image = Image.open(".\\image1.jpg")
         self.img_copy= self.image.copy()
 
 
